@@ -20,7 +20,7 @@ export default function Home() {
 
     try {
       const response = await fetch(
-        "https://text-to-speech-ai-backend-production.up.railway.app/transcribe",
+        "https://text-to-speech-ai-backend-hdp1.onrender.com/transcribe",
         {
           method: "POST",
           body: formData,

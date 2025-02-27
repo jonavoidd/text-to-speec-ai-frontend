@@ -29,7 +29,7 @@ export default function Footer() {
         {/* Right Section - Developer Contact & Socials */}
         <div className="flex space-x-4">
           <a
-            href="mailto:developer@example.com"
+            href="mailto:kurtjonathangozano@gmail.com"
             className="hover:text-white transition"
             title="Email"
           >
@@ -45,7 +45,7 @@ export default function Footer() {
             <Linkedin className="w-5 h-5" />
           </a>
           <a
-            href="https://github.com/developer"
+            href="https://github.com/jonavoidd"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-white transition"
