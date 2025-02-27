@@ -1,6 +1,6 @@
 import { Mail, MapPin, Phone } from "lucide-react";
 
-export default function Contact() {
+const Contact = () => {
   return (
     <div className="min-h-screen bg-gray-50 py-12 px-4 sm:px-6 lg:px-8">
       <div className="max-w-3xl mx-auto bg-white p-8 rounded-lg shadow-md">
@@ -64,7 +64,6 @@ export default function Contact() {
               </label>
               <textarea
                 id="message"
-                rows="4"
                 className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500"
                 placeholder="Your message..."
               ></textarea>
@@ -82,4 +81,6 @@ export default function Contact() {
       </div>
     </div>
   );
-}
+};
+
+export default Contact;
