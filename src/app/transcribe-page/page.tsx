@@ -19,10 +19,13 @@ export default function Home() {
     setLoading(true);
 
     try {
-      const response = await fetch("http://localhost:8000/transcribe", {
-        method: "POST",
-        body: formData,
-      });
+      const response = await fetch(
+        "https://text-to-speech-ai-backend-production.up.railway.app/transcribe",
+        {
+          method: "POST",
+          body: formData,
+        }
+      );
 
       if (!response.ok) throw new Error("Failed to transcribe audio");
       const data = await response.json();
