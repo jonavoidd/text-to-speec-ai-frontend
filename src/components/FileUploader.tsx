@@ -21,7 +21,7 @@ const FileUploader = ({ onFileUpload }: FileUploaderProps) => {
         onChange={(e) => setFile(e.target.files?.[0] || null)}
         className="border p-2 rounded-md"
       />
-      <Button onClick={handleUpload} className="mt-2">
+      <Button onClick={handleUpload} className="mt-2 w-full h-12 px-6 py-3">
         Upload & Transcribe
       </Button>
     </div>

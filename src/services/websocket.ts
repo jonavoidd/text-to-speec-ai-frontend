@@ -1,6 +1,6 @@
 export const connectWebSocket = (setTranscription: (text: string) => void) => {
   const socket = new WebSocket(
-    "https://text-to-speech-ai-backend-production.up.railway.app/ws"
+    "https://text-to-speech-ai-backend-hdp1.onrender.com/ws"
   );
 
   socket.onmessage = (event) => {

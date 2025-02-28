@@ -13,15 +13,15 @@ const Contact = () => {
         <div className="space-y-4">
           <div className="flex items-center space-x-4">
             <Mail className="w-6 h-6 text-blue-600" />
-            <p className="text-gray-600">support@speechtotech.ai</p>
+            <p className="text-gray-600">kurtjonathangozano@gmail.com</p>
           </div>
           <div className="flex items-center space-x-4">
             <Phone className="w-6 h-6 text-blue-600" />
-            <p className="text-gray-600">+1 (123) 456-7890</p>
+            <p className="text-gray-600">+63 927 329 0535</p>
           </div>
           <div className="flex items-center space-x-4">
             <MapPin className="w-6 h-6 text-blue-600" />
-            <p className="text-gray-600">123 AI Street, Tech City, World</p>
+            <p className="text-gray-600">Cebu City, Cebu, Philippines</p>
           </div>
         </div>
 
